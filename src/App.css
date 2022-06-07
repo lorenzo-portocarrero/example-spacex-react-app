@@ -1,0 +1,42 @@
+.launches-screen {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.launches-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.launch-card {
+  position: relative;
+  min-width: 400px;
+  display: flex;
+  flex: 1 1 25%;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.launch-card-image-container {
+  height: 200px;
+  background-size: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.launch-card-detail {
+  font-size: 20px;
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-weight: 400 !important;
+}
